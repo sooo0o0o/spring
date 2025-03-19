@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <meta charset="UTF-8">
+    <title>ch08::index</title>
+    <!--
+      날짜 : 2025.03.19
+      이름 : 곽혜수
+      내용 : ch08. Spring Security 실습하기
+    -->
+    <style>
+        a {
+            border: 1px solid navy;
+            border-radius: 20px;
+            background-color: navy;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Ch08. Spring Security</h3>
+
+    <h4>인증 테스트</h4>
+
+    <th:block sec:authorize="isAnonymous()">
+        <a th:href="@{/user/login}">로그인</a>
+        <a th:href="@{/user/register}">회원가입</a>
+    </th:block>
+
+    <th:block sec:authorize="isAuthenticated()">
+        <a th:href="@{/user/info}">사용자 정보</a>
+        <a th:href="@{/user/logout}">로그아웃</a>
+    </th:block>
+
+
+</body>
+</html>
