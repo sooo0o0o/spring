@@ -59,7 +59,9 @@ public class User1Controller {
     }
 
     @PutMapping("/user1")
-    public ResponseEntity<User1DTO> modify(User1DTO user1DTO){
+    public ResponseEntity<User1DTO> modify(@RequestBody User1DTO user1DTO){
+        log.info("user1DTO: {}", user1DTO);
+
         User1DTO modifiedUser1 = user1Service.modify(user1DTO);
 
         //ResponseEntity 객체를 사용하면 요청 결과에대한 다양한 사용자 정의가 가능하기 때문에 개발의 유연성이 높아짐
