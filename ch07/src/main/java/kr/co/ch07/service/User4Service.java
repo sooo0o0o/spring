@@ -48,7 +48,7 @@ public class User4Service {
     public void modify(User4DTO user4DTO){
         boolean exist = repository.existsById(user4DTO.getUid());
         if(exist){
-            User4 user4 = repository.findById(user4DTO.getUid()).get();
+            User4 user4 = user4DTO.toEntity();
             repository.save(user4);
         }
     }

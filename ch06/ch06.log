@@ -1,741 +1,236 @@
-2025-03-14T09:25:36.248+09:00  INFO 14312 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 14312 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:25:36.254+09:00  INFO 14312 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:25:37.431+09:00  INFO 14312 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:25:37.779+09:00  INFO 14312 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.822 seconds (process running for 2.905)
-2025-03-14T09:25:38.551+09:00  INFO 14312 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:25:38.888+09:00  INFO 14312 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e66b498
-2025-03-14T09:25:38.891+09:00  INFO 14312 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:25:38.968+09:00  INFO 14312 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:25:38.975+09:00  INFO 14312 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:26:28.140+09:00  INFO 6460 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 6460 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:26:28.141+09:00  INFO 6460 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:26:29.300+09:00  INFO 6460 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:26:29.636+09:00  INFO 6460 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.782 seconds (process running for 2.826)
-2025-03-14T09:26:30.372+09:00  INFO 6460 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:26:30.654+09:00  INFO 6460 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57ed02e6
-2025-03-14T09:26:30.656+09:00  INFO 6460 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:26:30.722+09:00  INFO 6460 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:26:30.726+09:00  INFO 6460 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:29:49.750+09:00  INFO 11748 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 11748 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:29:49.752+09:00  INFO 11748 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:29:50.919+09:00  INFO 11748 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:29:51.235+09:00  INFO 11748 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.779 seconds (process running for 2.833)
-2025-03-14T09:29:51.941+09:00  INFO 11748 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:29:52.245+09:00  INFO 11748 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d61f17
-2025-03-14T09:29:52.247+09:00  INFO 11748 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:29:52.331+09:00  INFO 11748 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:29:52.336+09:00  INFO 11748 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:32:07.309+09:00  INFO 13200 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 13200 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:32:07.311+09:00  INFO 13200 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:32:08.458+09:00  INFO 13200 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:32:08.794+09:00  INFO 13200 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.786 seconds (process running for 2.889)
-2025-03-14T09:32:09.537+09:00  INFO 13200 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:32:09.828+09:00  INFO 13200 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10d49900
-2025-03-14T09:32:09.830+09:00  INFO 13200 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:32:09.936+09:00  INFO 13200 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:32:09.943+09:00  INFO 13200 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:32:31.383+09:00  INFO 10504 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 10504 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:32:31.385+09:00  INFO 10504 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:32:32.558+09:00  INFO 10504 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:32:32.869+09:00  INFO 10504 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.757 seconds (process running for 2.826)
-2025-03-14T09:32:33.598+09:00  INFO 10504 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:32:33.895+09:00  INFO 10504 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d61f17
-2025-03-14T09:32:33.897+09:00  INFO 10504 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:32:33.982+09:00  INFO 10504 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:32:33.986+09:00  INFO 10504 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:35:42.739+09:00  INFO 3276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 3276 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:35:42.741+09:00  INFO 3276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:35:43.958+09:00  INFO 3276 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:35:44.280+09:00  INFO 3276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.852 seconds (process running for 2.981)
-2025-03-14T09:35:45.139+09:00  INFO 3276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:35:45.485+09:00  INFO 3276 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6604f246
-2025-03-14T09:35:45.487+09:00  INFO 3276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:35:45.552+09:00  INFO 3276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:35:45.556+09:00  INFO 3276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:38:47.215+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 13152 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:38:47.217+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:38:48.370+09:00  INFO 13152 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:38:48.703+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.799 seconds (process running for 2.864)
-2025-03-14T09:38:49.433+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:38:49.756+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6604f246
-2025-03-14T09:38:49.758+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:38:49.845+09:00  INFO 13152 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:38:49.850+09:00  INFO 13152 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:41:36.185+09:00  INFO 4308 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 4308 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:41:36.187+09:00  INFO 4308 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:41:37.341+09:00  INFO 4308 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:41:37.772+09:00  INFO 4308 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.863 seconds (process running for 2.955)
-2025-03-14T09:41:38.578+09:00  INFO 4308 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:41:38.903+09:00  INFO 4308 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6604f246
-2025-03-14T09:41:38.906+09:00  INFO 4308 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:41:38.983+09:00  INFO 4308 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:41:38.986+09:00  INFO 4308 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:45:30.289+09:00  INFO 9276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 9276 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:45:30.291+09:00  INFO 9276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:45:31.469+09:00  INFO 9276 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:45:31.798+09:00  INFO 9276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.821 seconds (process running for 2.971)
-2025-03-14T09:45:32.519+09:00  INFO 9276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:45:32.805+09:00  INFO 9276 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@177068db
-2025-03-14T09:45:32.808+09:00  INFO 9276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:45:32.939+09:00  INFO 9276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:45:32.990+09:00  INFO 9276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:47:02.955+09:00  INFO 3500 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 3500 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:47:02.957+09:00  INFO 3500 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:47:04.143+09:00  INFO 3500 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:47:04.466+09:00  INFO 3500 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.808 seconds (process running for 2.895)
-2025-03-14T09:47:05.203+09:00  INFO 3500 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:47:05.507+09:00  INFO 3500 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e645600
-2025-03-14T09:47:05.509+09:00  INFO 3500 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:47:05.628+09:00  INFO 3500 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:47:05.680+09:00  INFO 3500 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:47:30.616+09:00  INFO 16128 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 16128 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:47:30.617+09:00  INFO 16128 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:47:31.773+09:00  INFO 16128 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:47:32.092+09:00  INFO 16128 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.779 seconds (process running for 2.855)
-2025-03-14T09:47:32.805+09:00  INFO 16128 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:47:33.106+09:00  INFO 16128 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e645600
-2025-03-14T09:47:33.108+09:00  INFO 16128 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:47:33.234+09:00  INFO 16128 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:47:33.284+09:00  INFO 16128 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:47:51.875+09:00  INFO 2164 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 2164 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:47:51.876+09:00  INFO 2164 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:47:53.121+09:00  INFO 2164 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:47:53.453+09:00  INFO 2164 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.871 seconds (process running for 2.948)
-2025-03-14T09:47:54.177+09:00  INFO 2164 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:47:54.479+09:00  INFO 2164 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47d4e28a
-2025-03-14T09:47:54.481+09:00  INFO 2164 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:47:54.563+09:00  INFO 2164 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:47:54.567+09:00  INFO 2164 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:48:48.133+09:00  INFO 15088 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 15088 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:48:48.135+09:00  INFO 15088 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:48:49.276+09:00  INFO 15088 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:48:49.596+09:00  INFO 15088 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.759 seconds (process running for 2.828)
-2025-03-14T09:48:50.319+09:00  INFO 15088 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:48:50.606+09:00  INFO 15088 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f3e9acc
-2025-03-14T09:48:50.608+09:00  INFO 15088 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:48:50.676+09:00  INFO 15088 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:48:50.679+09:00  INFO 15088 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:53:29.617+09:00  INFO 12316 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 12316 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:53:29.619+09:00  INFO 12316 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:53:30.827+09:00  INFO 12316 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:53:31.153+09:00  INFO 12316 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.842 seconds (process running for 2.931)
-2025-03-14T09:53:31.894+09:00  INFO 12316 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:53:32.169+09:00  INFO 12316 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b103db7
-2025-03-14T09:53:32.171+09:00  INFO 12316 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:53:32.278+09:00  INFO 12316 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:53:32.282+09:00  INFO 12316 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:54:03.759+09:00  INFO 3140 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 3140 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:54:03.760+09:00  INFO 3140 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:54:04.944+09:00  INFO 3140 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:54:05.268+09:00  INFO 3140 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.799 seconds (process running for 2.88)
-2025-03-14T09:54:05.946+09:00  INFO 3140 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:54:06.231+09:00  INFO 3140 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53d9af1
-2025-03-14T09:54:06.233+09:00  INFO 3140 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:54:06.318+09:00  INFO 3140 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:54:06.323+09:00  INFO 3140 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:55:12.522+09:00  INFO 764 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 764 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:55:12.524+09:00  INFO 764 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:55:13.673+09:00  INFO 764 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:55:13.986+09:00  INFO 764 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.738 seconds (process running for 2.829)
-2025-03-14T09:55:14.735+09:00  INFO 764 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:55:15.041+09:00  INFO 764 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47d4e28a
-2025-03-14T09:55:15.043+09:00  INFO 764 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:55:15.121+09:00  INFO 764 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:55:15.125+09:00  INFO 764 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:56:15.258+09:00  INFO 12436 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 12436 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:56:15.260+09:00  INFO 12436 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:56:16.409+09:00  INFO 12436 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:56:16.726+09:00  INFO 12436 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.804 seconds (process running for 2.942)
-2025-03-14T09:56:16.758+09:00  INFO 12436 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:56:17.081+09:00  INFO 12436 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70139a81
-2025-03-14T09:56:17.083+09:00  INFO 12436 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:56:17.969+09:00  INFO 12436 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:56:17.978+09:00  INFO 12436 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:57:00.147+09:00  INFO 9328 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 9328 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:57:00.149+09:00  INFO 9328 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:57:01.289+09:00  INFO 9328 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:57:01.614+09:00  INFO 9328 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.751 seconds (process running for 2.821)
-2025-03-14T09:57:01.647+09:00  INFO 9328 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:57:01.942+09:00  INFO 9328 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52285a5f
-2025-03-14T09:57:01.944+09:00  INFO 9328 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:57:02.807+09:00  INFO 9328 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:57:02.817+09:00  INFO 9328 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T09:58:54.713+09:00  INFO 12928 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 12928 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T09:58:54.714+09:00  INFO 12928 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T09:58:55.859+09:00  INFO 12928 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T09:58:56.172+09:00  INFO 12928 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.734 seconds (process running for 2.822)
-2025-03-14T09:58:56.868+09:00  INFO 12928 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T09:58:57.136+09:00  INFO 12928 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b103db7
-2025-03-14T09:58:57.138+09:00  INFO 12928 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T09:58:57.263+09:00  INFO 12928 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T09:58:57.317+09:00  INFO 12928 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:02:18.900+09:00  INFO 16224 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 16224 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:02:18.901+09:00  INFO 16224 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:02:20.033+09:00  INFO 16224 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:02:20.354+09:00  INFO 16224 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.737 seconds (process running for 2.841)
-2025-03-14T10:02:21.089+09:00  INFO 16224 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:02:21.408+09:00  INFO 16224 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9c92b5
-2025-03-14T10:02:21.410+09:00  INFO 16224 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:02:21.529+09:00  INFO 16224 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:02:21.583+09:00  INFO 16224 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:02:55.441+09:00  INFO 4028 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 4028 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:02:55.443+09:00  INFO 4028 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:02:56.609+09:00  INFO 4028 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:02:56.922+09:00  INFO 4028 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.77 seconds (process running for 2.85)
-2025-03-14T10:02:57.665+09:00  INFO 4028 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:02:57.940+09:00  INFO 4028 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9c92b5
-2025-03-14T10:02:57.943+09:00  INFO 4028 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:02:58.059+09:00  INFO 4028 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:02:58.109+09:00  INFO 4028 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:03:50.799+09:00  INFO 11600 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 11600 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:03:50.802+09:00  INFO 11600 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:03:51.950+09:00  INFO 11600 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:03:52.277+09:00  INFO 11600 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.76 seconds (process running for 2.856)
-2025-03-14T10:03:52.993+09:00  INFO 11600 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:03:53.309+09:00  INFO 11600 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43df1377
-2025-03-14T10:03:53.311+09:00  INFO 11600 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:03:53.390+09:00  INFO 11600 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:03:53.393+09:00  INFO 11600 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:04:06.156+09:00  INFO 14408 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 14408 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:04:06.159+09:00  INFO 14408 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:04:07.340+09:00  INFO 14408 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:04:07.665+09:00  INFO 14408 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.791 seconds (process running for 2.902)
-2025-03-14T10:04:08.397+09:00  INFO 14408 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:04:08.661+09:00  INFO 14408 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9c92b5
-2025-03-14T10:04:08.663+09:00  INFO 14408 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:04:08.786+09:00  INFO 14408 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:04:08.831+09:00  INFO 14408 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:05:26.338+09:00  INFO 10216 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 10216 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:05:26.340+09:00  INFO 10216 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:05:27.499+09:00  INFO 10216 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:05:27.823+09:00  INFO 10216 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.782 seconds (process running for 2.852)
-2025-03-14T10:05:28.615+09:00  INFO 10216 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:05:28.925+09:00  INFO 10216 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9c92b5
-2025-03-14T10:05:28.927+09:00  INFO 10216 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:05:29.047+09:00  INFO 10216 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:05:29.097+09:00  INFO 10216 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:06:11.704+09:00  INFO 2612 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 2612 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:06:11.705+09:00  INFO 2612 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:06:12.831+09:00  INFO 2612 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:06:13.150+09:00  INFO 2612 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.725 seconds (process running for 2.782)
-2025-03-14T10:06:13.873+09:00  INFO 2612 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:06:14.138+09:00  INFO 2612 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b64f131
-2025-03-14T10:06:14.140+09:00  INFO 2612 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:06:14.254+09:00  INFO 2612 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:06:14.316+09:00  INFO 2612 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:06:31.252+09:00  INFO 16276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 16276 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:06:31.255+09:00  INFO 16276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:06:32.447+09:00  INFO 16276 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:06:32.771+09:00  INFO 16276 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.819 seconds (process running for 2.902)
-2025-03-14T10:06:33.532+09:00  INFO 16276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:06:33.810+09:00  INFO 16276 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4067634b
-2025-03-14T10:06:33.813+09:00  INFO 16276 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:06:33.928+09:00  INFO 16276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:06:33.980+09:00  INFO 16276 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:07:08.791+09:00  INFO 7868 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 7868 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:07:08.793+09:00  INFO 7868 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:07:09.964+09:00  INFO 7868 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:07:10.308+09:00  INFO 7868 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.791 seconds (process running for 2.892)
-2025-03-14T10:07:11.049+09:00  INFO 7868 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:07:11.356+09:00  INFO 7868 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@565a6af
-2025-03-14T10:07:11.358+09:00  INFO 7868 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:07:11.449+09:00  INFO 7868 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:07:11.453+09:00  INFO 7868 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:07:16.215+09:00  INFO 5016 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 5016 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:07:16.216+09:00  INFO 5016 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:07:17.354+09:00  INFO 5016 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:07:17.678+09:00  INFO 5016 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.738 seconds (process running for 2.824)
-2025-03-14T10:07:18.415+09:00  INFO 5016 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:07:18.724+09:00  INFO 5016 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f2d024
-2025-03-14T10:07:18.726+09:00  INFO 5016 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:07:18.800+09:00  INFO 5016 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:07:18.803+09:00  INFO 5016 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:07:24.495+09:00  INFO 9208 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 9208 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:07:24.497+09:00  INFO 9208 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:07:25.638+09:00  INFO 9208 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:07:25.986+09:00  INFO 9208 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.767 seconds (process running for 2.854)
-2025-03-14T10:07:26.729+09:00  INFO 9208 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:07:27.014+09:00  INFO 9208 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cee3e05
-2025-03-14T10:07:27.016+09:00  INFO 9208 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:07:27.100+09:00  INFO 9208 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:07:27.103+09:00  INFO 9208 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:07:33.481+09:00  INFO 8064 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 8064 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:07:33.482+09:00  INFO 8064 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:07:34.634+09:00  INFO 8064 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:07:34.957+09:00  INFO 8064 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.759 seconds (process running for 2.858)
-2025-03-14T10:07:35.710+09:00  INFO 8064 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:07:36.004+09:00  INFO 8064 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@565a6af
-2025-03-14T10:07:36.006+09:00  INFO 8064 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:07:36.094+09:00  INFO 8064 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:07:36.097+09:00  INFO 8064 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:07:41.856+09:00  INFO 3832 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 3832 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:07:41.857+09:00  INFO 3832 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:07:43.016+09:00  INFO 3832 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:07:43.332+09:00  INFO 3832 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.744 seconds (process running for 2.807)
-2025-03-14T10:07:44.048+09:00  INFO 3832 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:07:44.356+09:00  INFO 3832 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20afd96f
-2025-03-14T10:07:44.359+09:00  INFO 3832 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:07:44.424+09:00  INFO 3832 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:07:44.429+09:00  INFO 3832 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:08:03.422+09:00  INFO 10880 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 10880 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:08:03.424+09:00  INFO 10880 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:08:04.573+09:00  INFO 10880 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:08:04.901+09:00  INFO 10880 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.758 seconds (process running for 2.837)
-2025-03-14T10:08:05.649+09:00  INFO 10880 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:08:05.967+09:00  INFO 10880 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b64f131
-2025-03-14T10:08:05.969+09:00  INFO 10880 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:08:06.089+09:00  INFO 10880 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:08:06.142+09:00  INFO 10880 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:10:09.640+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 13152 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:10:09.642+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:10:10.800+09:00  INFO 13152 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:10:11.123+09:00  INFO 13152 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.769 seconds (process running for 2.834)
-2025-03-14T10:10:11.850+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:10:12.158+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77cf329d
-2025-03-14T10:10:12.160+09:00  INFO 13152 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:10:12.289+09:00  INFO 13152 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:10:12.340+09:00  INFO 13152 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:12:10.188+09:00  INFO 12804 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 12804 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:12:10.190+09:00  INFO 12804 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:12:11.350+09:00  INFO 12804 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:12:11.676+09:00  INFO 12804 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.765 seconds (process running for 2.858)
-2025-03-14T10:12:12.382+09:00  INFO 12804 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:12:12.692+09:00  INFO 12804 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@191b44ca
-2025-03-14T10:12:12.695+09:00  INFO 12804 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:12:12.812+09:00  INFO 12804 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:12:12.871+09:00  INFO 12804 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:12:23.830+09:00  INFO 12956 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 12956 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:12:23.833+09:00  INFO 12956 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:12:24.995+09:00  INFO 12956 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:12:25.312+09:00  INFO 12956 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.778 seconds (process running for 2.844)
-2025-03-14T10:12:26.032+09:00  INFO 12956 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:12:26.304+09:00  INFO 12956 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9c92b5
-2025-03-14T10:12:26.306+09:00  INFO 12956 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:12:26.433+09:00  INFO 12956 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:12:26.475+09:00  INFO 12956 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:12:36.316+09:00  INFO 6348 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 6348 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:12:36.318+09:00  INFO 6348 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:12:37.465+09:00  INFO 6348 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:12:37.784+09:00  INFO 6348 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.757 seconds (process running for 2.839)
-2025-03-14T10:12:38.517+09:00  INFO 6348 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:12:38.820+09:00  INFO 6348 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e66b498
-2025-03-14T10:12:38.822+09:00  INFO 6348 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:12:38.962+09:00  INFO 6348 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:12:38.987+09:00  INFO 6348 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:12:54.617+09:00  INFO 9396 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 9396 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:12:54.619+09:00  INFO 9396 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:12:55.773+09:00  INFO 9396 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:12:56.092+09:00  INFO 9396 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.753 seconds (process running for 2.854)
-2025-03-14T10:12:56.811+09:00  INFO 9396 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:12:57.131+09:00  INFO 9396 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f2d024
-2025-03-14T10:12:57.133+09:00  INFO 9396 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:12:57.206+09:00  INFO 9396 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:12:57.212+09:00  INFO 9396 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:13:05.017+09:00  INFO 14704 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 14704 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:13:05.018+09:00  INFO 14704 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:13:06.201+09:00  INFO 14704 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:13:06.531+09:00  INFO 14704 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.795 seconds (process running for 2.912)
-2025-03-14T10:13:07.254+09:00  INFO 14704 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:13:07.550+09:00  INFO 14704 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@565a6af
-2025-03-14T10:13:07.552+09:00  INFO 14704 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:13:07.634+09:00  INFO 14704 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:13:07.638+09:00  INFO 14704 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:13:13.984+09:00  INFO 9540 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 9540 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:13:13.985+09:00  INFO 9540 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:13:15.141+09:00  INFO 9540 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:13:15.460+09:00  INFO 9540 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.747 seconds (process running for 2.853)
-2025-03-14T10:13:16.206+09:00  INFO 9540 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:13:16.515+09:00  INFO 9540 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cee3e05
-2025-03-14T10:13:16.518+09:00  INFO 9540 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:13:16.594+09:00  INFO 9540 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:13:16.598+09:00  INFO 9540 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:13:22.862+09:00  INFO 2468 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 2468 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:13:22.864+09:00  INFO 2468 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:13:24.163+09:00  INFO 2468 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:13:24.526+09:00  INFO 2468 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.945 seconds (process running for 3.044)
-2025-03-14T10:13:25.232+09:00  INFO 2468 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:13:25.537+09:00  INFO 2468 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@565a6af
-2025-03-14T10:13:25.539+09:00  INFO 2468 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:13:25.625+09:00  INFO 2468 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:13:25.628+09:00  INFO 2468 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:13:35.463+09:00  INFO 11716 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 11716 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:13:35.465+09:00  INFO 11716 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:13:36.612+09:00  INFO 11716 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:13:36.938+09:00  INFO 11716 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.76 seconds (process running for 2.884)
-2025-03-14T10:13:37.654+09:00  INFO 11716 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:13:37.934+09:00  INFO 11716 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20afd96f
-2025-03-14T10:13:37.937+09:00  INFO 11716 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:13:38.012+09:00  INFO 11716 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:13:38.016+09:00  INFO 11716 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:13:46.090+09:00  INFO 5892 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Starting User1MapperTest using Java 17.0.12 with PID 5892 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:13:46.093+09:00  INFO 5892 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:13:47.233+09:00  INFO 5892 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:13:47.549+09:00  INFO 5892 --- [ch06] [Test worker] kr.co.ch06.dao.User1MapperTest           : Started User1MapperTest in 1.742 seconds (process running for 2.835)
-2025-03-14T10:13:48.269+09:00  INFO 5892 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:13:48.592+09:00  INFO 5892 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29db008c
-2025-03-14T10:13:48.594+09:00  INFO 5892 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:13:48.719+09:00  INFO 5892 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:13:48.759+09:00  INFO 5892 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:17:39.733+09:00  INFO 9360 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Starting User1ServiceTest using Java 17.0.12 with PID 9360 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:17:39.734+09:00  INFO 9360 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:17:40.893+09:00  INFO 9360 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:17:41.212+09:00  INFO 9360 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Started User1ServiceTest in 1.773 seconds (process running for 2.833)
-2025-03-14T10:17:41.961+09:00  INFO 9360 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:17:42.288+09:00  INFO 9360 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3883031d
-2025-03-14T10:17:42.290+09:00  INFO 9360 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:17:42.360+09:00  INFO 9360 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:17:42.364+09:00  INFO 9360 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:17:51.243+09:00  INFO 4712 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Starting User1ServiceTest using Java 17.0.12 with PID 4712 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:17:51.245+09:00  INFO 4712 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:17:52.378+09:00  INFO 4712 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:17:52.703+09:00  INFO 4712 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Started User1ServiceTest in 1.744 seconds (process running for 2.821)
-2025-03-14T10:17:53.440+09:00  INFO 4712 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:17:53.741+09:00  INFO 4712 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d68be4f
-2025-03-14T10:17:53.744+09:00  INFO 4712 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:17:53.847+09:00  INFO 4712 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:17:53.852+09:00  INFO 4712 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:18:06.729+09:00  INFO 6064 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Starting User1ServiceTest using Java 17.0.12 with PID 6064 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:18:06.731+09:00  INFO 6064 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:18:07.897+09:00  INFO 6064 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:18:08.226+09:00  INFO 6064 --- [ch06] [Test worker] kr.co.ch06.service.User1ServiceTest      : Started User1ServiceTest in 1.786 seconds (process running for 2.866)
-2025-03-14T10:18:08.969+09:00  INFO 6064 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T10:18:09.269+09:00  INFO 6064 --- [ch06] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34eb5d01
-2025-03-14T10:18:09.270+09:00  INFO 6064 --- [ch06] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T10:18:09.348+09:00  INFO 6064 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T10:18:09.351+09:00  INFO 6064 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T10:31:05.792+09:00  INFO 9812 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 9812 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:31:05.794+09:00  INFO 9812 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:31:06.939+09:00  INFO 9812 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:31:07.258+09:00  INFO 9812 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:31:07.259+09:00  INFO 9812 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:31:07.260+09:00  INFO 9812 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:31:07.293+09:00  INFO 9812 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.809 seconds (process running for 2.902)
-2025-03-14T10:34:34.495+09:00  INFO 1748 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 1748 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:34:34.496+09:00  INFO 1748 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:34:35.661+09:00  INFO 1748 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:34:35.974+09:00  INFO 1748 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:34:35.975+09:00  INFO 1748 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:34:35.977+09:00  INFO 1748 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:34:36.012+09:00  INFO 1748 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.821 seconds (process running for 2.912)
-2025-03-14T10:39:22.055+09:00  INFO 15944 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 15944 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:39:22.056+09:00  INFO 15944 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:39:23.209+09:00  INFO 15944 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:39:23.523+09:00  INFO 15944 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:39:23.523+09:00  INFO 15944 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:39:23.524+09:00  INFO 15944 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:39:23.556+09:00  INFO 15944 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.807 seconds (process running for 2.903)
-2025-03-14T10:41:11.191+09:00  INFO 16364 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 16364 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:41:11.193+09:00  INFO 16364 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:41:12.371+09:00  INFO 16364 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:41:12.685+09:00  INFO 16364 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:41:12.685+09:00  INFO 16364 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:41:12.686+09:00  INFO 16364 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:41:12.721+09:00  INFO 16364 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.843 seconds (process running for 2.931)
-2025-03-14T10:41:13.489+09:00  WARN 16364 --- [ch06] [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-03-14T10:42:58.298+09:00  INFO 13492 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 13492 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:42:58.299+09:00  INFO 13492 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:42:59.524+09:00  INFO 13492 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:42:59.871+09:00  INFO 13492 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:42:59.871+09:00  INFO 13492 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:42:59.872+09:00  INFO 13492 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:42:59.908+09:00  INFO 13492 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.936 seconds (process running for 3.079)
-2025-03-14T10:43:00.751+09:00  WARN 13492 --- [ch06] [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-03-14T10:58:25.869+09:00  INFO 2176 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Starting Sub1ControllerTest using Java 17.0.12 with PID 2176 (started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T10:58:25.870+09:00  INFO 2176 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T10:58:27.068+09:00  INFO 2176 --- [ch06] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T10:58:27.390+09:00  INFO 2176 --- [ch06] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-14T10:58:27.390+09:00  INFO 2176 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-14T10:58:27.391+09:00  INFO 2176 --- [ch06] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-03-14T10:58:27.423+09:00  INFO 2176 --- [ch06] [Test worker] k.co.ch06.controller.Sub1ControllerTest  : Started Sub1ControllerTest in 1.852 seconds (process running for 3.002)
-2025-03-14T10:58:28.188+09:00  WARN 2176 --- [ch06] [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2025-03-14T11:00:37.034+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:00:37.036+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:00:37.073+09:00  INFO 2196 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-14T11:00:37.073+09:00  INFO 2196 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-14T11:00:38.035+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:00:38.047+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:00:38.047+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:00:38.086+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:00:38.086+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
-2025-03-14T11:00:38.339+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:00:38.575+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:00:38.603+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:00:38.611+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.932 seconds (process running for 2.398)
-2025-03-14T11:00:43.998+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:00:43.998+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:00:43.999+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-03-14T11:01:03.613+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User2Controller    : list
-2025-03-14T11:01:03.627+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T11:01:03.847+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ff2ae80
-2025-03-14T11:01:03.848+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T11:01:04.485+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
-2025-03-14T11:01:04.488+09:00  INFO 2196 --- [ch06] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:01:04.551+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:01:04.556+09:00  INFO 2196 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T11:01:04.561+09:00  INFO 2196 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T11:01:04.625+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:01:04.625+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:01:04.823+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:01:04.823+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:01:04.823+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:01:04.836+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:01:04.836+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
-2025-03-14T11:01:04.884+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:01:04.939+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:01:04.946+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:01:04.949+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.347 seconds (process running for 28.736)
-2025-03-14T11:01:04.950+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:01:05.663+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:01:05.664+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:01:05.664+09:00  INFO 2196 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-03-14T11:22:28.266+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (1 addition, 0 deletions, 17 modifications)
-2025-03-14T11:22:28.267+09:00  INFO 2196 --- [ch06] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:22:28.329+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:22:28.392+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:22:28.393+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:22:28.594+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:22:28.594+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:22:28.594+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:22:28.608+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:22:28.608+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 214 ms
-2025-03-14T11:22:28.653+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:22:28.708+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:22:28.716+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:22:28.719+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.348 seconds (process running for 1312.505)
-2025-03-14T11:22:28.720+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:23:28.208+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 0 deletions, 18 modifications)
-2025-03-14T11:23:28.209+09:00  INFO 2196 --- [ch06] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:23:28.269+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:23:28.322+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:23:28.322+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:23:28.492+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:23:28.493+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:23:28.493+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:23:28.506+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:23:28.506+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 182 ms
-2025-03-14T11:23:28.543+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:23:28.582+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:23:28.589+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:23:28.592+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.287 seconds (process running for 1372.378)
-2025-03-14T11:23:28.592+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:24:10.816+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 19 class path changes (1 addition, 0 deletions, 18 modifications)
-2025-03-14T11:24:10.817+09:00  INFO 2196 --- [ch06] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:24:10.878+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:24:10.935+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:24:10.935+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:24:11.120+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:24:11.120+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:24:11.120+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:24:11.131+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:24:11.132+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
-2025-03-14T11:24:11.172+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:24:11.213+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:24:11.219+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:24:11.222+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.309 seconds (process running for 1415.009)
-2025-03-14T11:24:11.223+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:27:18.525+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 20 class path changes (1 addition, 1 deletion, 18 modifications)
-2025-03-14T11:27:18.526+09:00  INFO 2196 --- [ch06] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:27:18.586+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:27:18.640+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:27:18.640+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:27:18.820+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:27:18.821+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:27:18.821+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:27:18.831+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:27:18.831+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
-2025-03-14T11:27:18.872+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:27:18.923+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:27:18.932+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:27:18.935+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.315 seconds (process running for 1602.722)
-2025-03-14T11:27:18.936+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:28:44.059+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
-2025-03-14T11:28:44.060+09:00  INFO 2196 --- [ch06] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:28:44.120+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:28:44.177+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:28:44.177+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:28:44.354+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:28:44.355+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:28:44.355+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:28:44.366+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:28:44.366+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
-2025-03-14T11:28:44.408+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:28:44.453+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:28:44.459+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:28:44.462+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.303 seconds (process running for 1688.249)
-2025-03-14T11:28:44.463+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:31:53.784+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 19 class path changes (0 additions, 0 deletions, 19 modifications)
-2025-03-14T11:31:53.785+09:00  INFO 2196 --- [ch06] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:31:53.848+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:31:53.908+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:31:53.908+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:31:54.087+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:31:54.087+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:31:54.088+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:31:54.098+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:31:54.098+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
-2025-03-14T11:31:54.132+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:31:54.173+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:31:54.180+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:31:54.183+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.295 seconds (process running for 1877.97)
-2025-03-14T11:31:54.184+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:34:33.862+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 20 class path changes (1 addition, 0 deletions, 19 modifications)
-2025-03-14T11:34:33.863+09:00  INFO 2196 --- [ch06] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:34:33.925+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:34:33.977+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:34:33.977+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:34:34.149+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:34:34.149+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:34:34.149+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:34:34.159+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:34:34.159+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 180 ms
-2025-03-14T11:34:34.196+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:34:34.238+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:34:34.245+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:34:34.248+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.288 seconds (process running for 2038.034)
-2025-03-14T11:34:34.249+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:53:57.300+09:00  INFO 2196 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 26 class path changes (6 additions, 0 deletions, 20 modifications)
-2025-03-14T11:53:57.301+09:00  INFO 2196 --- [ch06] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:53:57.360+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:53:57.415+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 2196 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:53:57.415+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:53:57.594+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:53:57.595+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:53:57.595+09:00  INFO 2196 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:53:57.608+09:00  INFO 2196 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:53:57.608+09:00  INFO 2196 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
-2025-03-14T11:53:57.652+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:53:57.703+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:53:57.709+09:00  INFO 2196 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:53:57.712+09:00  INFO 2196 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.316 seconds (process running for 3201.499)
-2025-03-14T11:53:57.713+09:00  INFO 2196 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:54:30.040+09:00  INFO 2196 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:54:30.105+09:00  INFO 2196 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:54:31.813+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 10292 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:54:31.816+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:54:31.867+09:00  INFO 10292 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-14T11:54:31.868+09:00  INFO 10292 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-14T11:54:32.819+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:54:32.829+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:54:32.829+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:54:32.864+09:00  INFO 10292 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:54:32.865+09:00  INFO 10292 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 997 ms
-2025-03-14T11:54:33.108+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:54:33.346+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:54:33.371+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:54:33.379+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.931 seconds (process running for 2.414)
-2025-03-14T11:54:37.220+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:54:37.220+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:54:37.221+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-03-14T11:54:40.055+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:54:40.069+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-14T11:54:40.282+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b252def
-2025-03-14T11:54:40.284+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-14T11:54:41.412+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:54:41.555+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-4] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:54:41.687+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-7] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:54:41.817+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-9] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:54:41.958+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-8] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:57:18.372+09:00  INFO 10292 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
-2025-03-14T11:57:18.374+09:00  INFO 10292 --- [ch06] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:57:18.437+09:00  INFO 10292 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:57:18.440+09:00  INFO 10292 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-14T11:57:18.445+09:00  INFO 10292 --- [ch06] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-14T11:57:18.503+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 10292 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:57:18.503+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:57:18.705+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:57:18.705+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:57:18.706+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:57:18.717+09:00  INFO 10292 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:57:18.718+09:00  INFO 10292 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
-2025-03-14T11:57:18.768+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:57:18.818+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:57:18.825+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:57:18.828+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.346 seconds (process running for 167.863)
-2025-03-14T11:57:18.830+09:00  INFO 10292 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:57:19.298+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:57:19.298+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:57:19.299+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-03-14T11:57:30.029+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-5] kr.co.ch06.controller.User3Controller    : user3DTO: User3DTO(uid=A106, name=이순신, birth=2025-03-01, hp=010-1212-1003, addr=null)
-2025-03-14T11:57:30.030+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-03-14T11:57:30.043+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8aa892b
-2025-03-14T11:57:30.043+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-03-14T11:57:30.053+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-9] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:27.945+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:28.384+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:28.770+09:00  INFO 10292 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
-2025-03-14T11:58:28.771+09:00  INFO 10292 --- [ch06] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:58:28.836+09:00  INFO 10292 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:58:28.838+09:00  INFO 10292 --- [ch06] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2025-03-14T11:58:28.841+09:00  INFO 10292 --- [ch06] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-03-14T11:58:28.912+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 10292 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:58:28.912+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:58:29.114+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:58:29.115+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:58:29.115+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:58:29.126+09:00  INFO 10292 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:58:29.126+09:00  INFO 10292 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
-2025-03-14T11:58:29.175+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:58:29.221+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:58:29.228+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:58:29.231+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.343 seconds (process running for 238.266)
-2025-03-14T11:58:29.232+09:00  INFO 10292 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:58:31.037+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:58:31.037+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:58:31.037+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-03-14T11:58:39.967+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] kr.co.ch06.controller.User3Controller    : user3DTO: User3DTO(uid=A107, name=김춘추, birth=2025-03-04, hp=010-1212-1011, addr=울산)
-2025-03-14T11:58:39.968+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2025-03-14T11:58:39.979+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2141a484
-2025-03-14T11:58:39.979+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2025-03-14T11:58:39.989+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-5] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:42.523+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-7] kr.co.ch06.controller.User3Controller    : uid: A106
-2025-03-14T11:58:42.532+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-8] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:44.892+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-9] kr.co.ch06.controller.User3Controller    : uid: A103
-2025-03-14T11:58:46.822+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-4] kr.co.ch06.controller.User3Controller    : user3DTO: User3DTO(uid=A103, name=장보고, birth=1992-01-01, hp=010-1002-1001, addr=null)
-2025-03-14T11:58:46.831+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:55.712+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-6] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:56.144+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-10] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:58:56.220+09:00  INFO 10292 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
-2025-03-14T11:58:56.221+09:00  INFO 10292 --- [ch06] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:58:56.284+09:00  INFO 10292 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:58:56.286+09:00  INFO 10292 --- [ch06] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2025-03-14T11:58:56.288+09:00  INFO 10292 --- [ch06] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
-2025-03-14T11:58:56.346+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 10292 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:58:56.346+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:58:56.534+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:58:56.534+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:58:56.534+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:58:56.546+09:00  INFO 10292 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:58:56.546+09:00  INFO 10292 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
-2025-03-14T11:58:56.596+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:58:56.641+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:58:56.647+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:58:56.650+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.324 seconds (process running for 265.686)
-2025-03-14T11:58:56.651+09:00  INFO 10292 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:58:56.852+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-14T11:58:56.852+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-14T11:58:56.853+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-03-14T11:58:56.854+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] kr.co.ch06.controller.User3Controller    : uid: A103
-2025-03-14T11:58:56.855+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2025-03-14T11:58:56.865+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a7934b
-2025-03-14T11:58:56.865+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2025-03-14T11:58:58.863+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-3] kr.co.ch06.controller.User3Controller    : user3DTO: User3DTO(uid=A103, name=장보고, birth=1992-01-01, hp=010-1002-1001, addr=대구)
-2025-03-14T11:58:58.876+09:00  INFO 10292 --- [ch06] [http-nio-8080-exec-4] kr.co.ch06.controller.User3Controller    : list
-2025-03-14T11:59:25.660+09:00  INFO 10292 --- [ch06] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
-2025-03-14T11:59:25.661+09:00  INFO 10292 --- [ch06] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:59:25.721+09:00  INFO 10292 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-14T11:59:25.723+09:00  INFO 10292 --- [ch06] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2025-03-14T11:59:25.725+09:00  INFO 10292 --- [ch06] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
-2025-03-14T11:59:25.780+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 10292 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
-2025-03-14T11:59:25.780+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
-2025-03-14T11:59:25.961+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-14T11:59:25.962+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-14T11:59:25.962+09:00  INFO 10292 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-14T11:59:25.973+09:00  INFO 10292 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
-2025-03-14T11:59:25.973+09:00  INFO 10292 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
-2025-03-14T11:59:26.017+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-03-14T11:59:26.059+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-03-14T11:59:26.065+09:00  INFO 10292 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
-2025-03-14T11:59:26.068+09:00  INFO 10292 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 0.307 seconds (process running for 295.103)
-2025-03-14T11:59:26.069+09:00  INFO 10292 --- [ch06] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-03-14T11:59:31.845+09:00  INFO 10292 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-14T11:59:31.909+09:00  INFO 10292 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-28T09:06:19.210+09:00  INFO 12424 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 12424 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
+2025-03-28T09:06:19.215+09:00  INFO 12424 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T09:06:19.258+09:00  INFO 12424 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28T09:06:19.259+09:00  INFO 12424 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28T09:06:20.251+09:00  INFO 12424 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-28T09:06:20.263+09:00  INFO 12424 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-28T09:06:20.263+09:00  INFO 12424 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28T09:06:20.300+09:00  INFO 12424 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-28T09:06:20.301+09:00  INFO 12424 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1041 ms
+2025-03-28T09:06:20.623+09:00  INFO 12424 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-28T09:06:20.881+09:00  INFO 12424 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-28T09:06:20.906+09:00  INFO 12424 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-28T09:06:20.915+09:00  INFO 12424 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 2.226 seconds (process running for 2.806)
+2025-03-28T09:06:28.471+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-28T09:06:28.472+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-28T09:06:28.473+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-28T09:06:34.049+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-28T09:06:34.310+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5101701a
+2025-03-28T09:06:34.313+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-28T09:06:39.765+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-6] kr.co.ch06.controller.User1Controller    : uid: a106
+2025-03-28T09:06:44.233+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-5] kr.co.ch06.controller.User1Controller    : user1DTO: User1DTO(uid=a106, name=정약용, hp=010-1234-1212, age=25)
+2025-03-28T09:07:02.725+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-4] kr.co.ch06.controller.User1Controller    : user1DTO: User1DTO(uid=a107, name=삭제용데이터, hp=010-1234-1235, age=24)
+2025-03-28T09:07:02.845+09:00 ERROR 12424 --- [ch06] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: Error attempting to get column 'age' from result set.  Cause: java.sql.SQLDataException: Cannot determine value type from string 'a107'
+; Cannot determine value type from string 'a107'] with root cause
+
+com.mysql.cj.exceptions.DataConversionException: Cannot determine value type from string 'a107'
+	at com.mysql.cj.result.AbstractNumericValueFactory.createFromBytes(AbstractNumericValueFactory.java:56) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.a.MysqlTextValueDecoder.decodeByteArray(MysqlTextValueDecoder.java:151) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.decodeAndCreateReturnValue(AbstractResultsetRow.java:127) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.getValueFromBytes(AbstractResultsetRow.java:235) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.a.result.ByteArrayRow.getValue(ByteArrayRow.java:82) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1306) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:852) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:873) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java) ~[HikariCP-5.1.0.jar:na]
+	at org.apache.ibatis.type.IntegerTypeHandler.getNullableResult(IntegerTypeHandler.java:36) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.type.IntegerTypeHandler.getNullableResult(IntegerTypeHandler.java:26) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.type.BaseTypeHandler.getResult(BaseTypeHandler.java:86) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.applyAutomaticMappings(DefaultResultSetHandler.java:586) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:416) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:366) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:337) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:310) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:202) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:66) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142) ~[mybatis-3.5.17.jar:3.5.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at jdk.proxy2/jdk.proxy2.$Proxy64.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.17.jar:3.5.17]
+	at jdk.proxy3/jdk.proxy3.$Proxy65.selectAllUser1(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.findAll(User1Service.java:22) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.list(User1Controller.java:26) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-28T09:07:21.507+09:00  INFO 12424 --- [ch06] [http-nio-8080-exec-10] kr.co.ch06.controller.User1Controller    : user1DTO: User1DTO(uid=a107, name=삭제용데이터, hp=010-1234-1235, age=26)
+2025-03-28T09:07:21.520+09:00 ERROR 12424 --- [ch06] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ch06] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: Error attempting to get column 'age' from result set.  Cause: java.sql.SQLDataException: Cannot determine value type from string 'a107'
+; Cannot determine value type from string 'a107'] with root cause
+
+com.mysql.cj.exceptions.DataConversionException: Cannot determine value type from string 'a107'
+	at com.mysql.cj.result.AbstractNumericValueFactory.createFromBytes(AbstractNumericValueFactory.java:56) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.a.MysqlTextValueDecoder.decodeByteArray(MysqlTextValueDecoder.java:151) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.decodeAndCreateReturnValue(AbstractResultsetRow.java:127) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.getValueFromBytes(AbstractResultsetRow.java:235) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.protocol.a.result.ByteArrayRow.getValue(ByteArrayRow.java:82) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1306) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:852) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:873) ~[mysql-connector-j-9.1.0.jar:9.1.0]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java) ~[HikariCP-5.1.0.jar:na]
+	at org.apache.ibatis.type.IntegerTypeHandler.getNullableResult(IntegerTypeHandler.java:36) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.type.IntegerTypeHandler.getNullableResult(IntegerTypeHandler.java:26) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.type.BaseTypeHandler.getResult(BaseTypeHandler.java:86) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.applyAutomaticMappings(DefaultResultSetHandler.java:586) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:416) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:366) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:337) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:310) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:202) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:66) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142) ~[mybatis-3.5.17.jar:3.5.17]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at jdk.proxy2/jdk.proxy2.$Proxy64.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:194) ~[mybatis-spring-3.0.4.jar:3.0.4]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.17.jar:3.5.17]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.17.jar:3.5.17]
+	at jdk.proxy3/jdk.proxy3.$Proxy65.selectAllUser1(Unknown Source) ~[na:na]
+	at kr.co.ch06.service.User1Service.findAll(User1Service.java:22) ~[main/:na]
+	at kr.co.ch06.controller.User1Controller.list(User1Controller.java:26) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-03-28T09:09:08.883+09:00  INFO 12424 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28T09:09:08.951+09:00  INFO 12424 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-28T09:09:08.955+09:00  INFO 12424 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-28T09:09:08.960+09:00  INFO 12424 --- [ch06] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-28T09:09:11.428+09:00  INFO 8000 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Starting Ch06Application using Java 17.0.12 with PID 8000 (C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06\build\classes\java\main started by lotte6_SpringProject in C:\Users\lotte6_SpringProject\Desktop\Workspace\spring\ch06)
+2025-03-28T09:09:11.430+09:00  INFO 8000 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T09:09:11.465+09:00  INFO 8000 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-28T09:09:11.465+09:00  INFO 8000 --- [ch06] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-28T09:09:12.284+09:00  INFO 8000 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-28T09:09:12.295+09:00  INFO 8000 --- [ch06] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-28T09:09:12.295+09:00  INFO 8000 --- [ch06] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-28T09:09:12.330+09:00  INFO 8000 --- [ch06] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch06]   : Initializing Spring embedded WebApplicationContext
+2025-03-28T09:09:12.330+09:00  INFO 8000 --- [ch06] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 865 ms
+2025-03-28T09:09:12.578+09:00  INFO 8000 --- [ch06] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-28T09:09:12.802+09:00  INFO 8000 --- [ch06] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-28T09:09:12.828+09:00  INFO 8000 --- [ch06] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch06'
+2025-03-28T09:09:12.835+09:00  INFO 8000 --- [ch06] [restartedMain] kr.co.ch06.Ch06Application               : Started Ch06Application in 1.755 seconds (process running for 2.251)
+2025-03-28T09:10:02.729+09:00  INFO 8000 --- [ch06] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-28T09:10:02.796+09:00  INFO 8000 --- [ch06] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
