@@ -37,7 +37,7 @@ public class User2Controller {
     }
 
     @PutMapping("/user2")
-    public ResponseEntity<User2DTO> modify(User2DTO user2DTO){
+    public ResponseEntity<User2DTO> modify(@RequestBody User2DTO user2DTO){
         User2DTO savedUser2 = user2Service.modify(user2DTO);
 
         return ResponseEntity
